@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    background-color:rgb(26, 206, 219);
+	font-family: 'Baloo 2', cursive;
+}
+.banner-text {
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+}
+.banner-text ul {
+	height: 50px;
+	float: right;
+}
+.banner-text ul li {
+	display: inline-block;
+	padding: 40px 15px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 20px;
+}
+.banner-text ul li:hover {
+	cursor: pointer;
+}
+.banner-text h1 {
+	text-align: left;
+	color: #fff;
+	font-size: 50px;
+	margin-top: 100px;
+	margin-left: 100px;
+
+}
+.banner-text p {
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	margin-top:350px;
+
+
+}

@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(w1.jpg);
+    background-position: center;background-size: cover;
+    position: absolute ;
+    
+}
+
+.form-box{
+    width: 400px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+
+}
+
+.input-group{
+    top: 180px;
+
+    position: absolute;
+    width: 280px;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin-top: :20px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+div div h1{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    background-color:linear-gradient(to right,#109fff,#ff06d6);
+    box-shadow: #ff06d6;
+    margin-bottom: 50px;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 80px;
+    cursor: pointer;
+    display: block;
+    margin: 30px 10px 30px 30px;
+    position: absolute;
+    background: linear-gradient(to right,#109fff,#ff06d6);
+    border: 0;
+    outline: none;
+    border-radius: 50px;
+
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+    cursor: pointer;
+}
+.span{
+    color: #777;
+    font-size: 12px;
+    bottom: absolute;
+}

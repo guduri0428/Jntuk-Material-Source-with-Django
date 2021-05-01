@@ -1,0 +1,36 @@
+</html>><!DOCTYPE html>
+{%load static%}
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Register</title>
+    <link rel='stylesheet' href="{%static "css/login.css"%}">
+</head>
+<body>
+    <div class="hero">
+      <a href="/">Home</a>
+        <div class="form-box"><br>
+            <h1 face = "Times New Roman">Create Account </h1><br><br><br><br><br><br>
+
+
+
+            <form  method="post" action="/register/" class="input-group">
+              {% csrf_token %}
+                <input name="email" type="text" class="input-field" placeholder="Email Id" required>
+                <input name="password" type="password" class="input-field" placeholder="create Password" required><br>
+                <input name="cpassword" type="password" class="input-field" placeholder="confirm Password" required>
+                <button type="submit" class="submit-btn" >Register</button><br><br><br><br><br><br>
+                <p align=center>{{key}}</p><br><br>
+                <p align=center>already have an account?<a href="/login/">Log In</a></p>
+            </form>
+
+        </div>
+
+
+
+
+
+    </div>
+
+</body>
+</html>>

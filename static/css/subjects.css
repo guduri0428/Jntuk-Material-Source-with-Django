@@ -1,0 +1,23 @@
+body {
+    background: lightseagreen;
+
+}
+body table{
+    width:100%
+
+}
+
+th {
+    text-align: ;
+
+}
+
+table th td{
+    border:1px solid #000;
+    color: white;
+    text-decoration: none;
+}
+body table tr a{
+  color: white;
+  text-decoration: none;
+}

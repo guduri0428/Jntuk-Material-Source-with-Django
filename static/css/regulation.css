@@ -1,0 +1,48 @@
+body{
+    font-size: 3vw;
+    text-align: center;
+    background-color: aqua;
+
+}
+body h1{
+    background-color: rgb(79, 151, 233);
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.container{
+    background-color: rgb(233, 79, 200);
+    width:1100px;
+    height:700px;
+    position:relative;
+    margin:6% auto
+
+
+}
+.button1 {
+    background: #4479BA;
+    color: #FFF;
+    padding: 40px 50px;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-top: 50px;
+    vertical-align:middle;
+    text-align:center;
+    border-radius: 50px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.button2 {
+    background: #4479BA;
+    color: #FFF;
+    padding: 40px 50px;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-top: 50px;
+    vertical-align:middle;
+    text-align:center;
+    border-radius: 50px;
+    position: absolute;
+    top: 200px;
+    left: 640px;
+}
